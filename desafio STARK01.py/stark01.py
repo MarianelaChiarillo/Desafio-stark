@@ -326,7 +326,7 @@ while True:
                 if flag_bienvenida:
                     colores_ojos = ["Blue", "Brown", "Yellow", "Hazel", "Yellow (without irises)", "Green", "Silver", "Red"]
                     print("               ***Contador por color de ojos***    ")
-                    print("................................................................................................")
+                    print("."*60)
 
                     for color in colores_ojos:
                         contador = contar_valores(lista_personajes, "color_ojos", color)
